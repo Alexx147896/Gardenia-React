@@ -28,7 +28,7 @@ import ReturnsPolicy from '../components/ReturnsPolicy';
 
 function App() {
 
-  const savedCart = JSON.parse(localStorage.getItem('cart')) || '[]';
+  const savedCart = JSON.parse(localStorage.getItem('cart')) || [];
   const [cart, setCart] = useState(savedCart);
 
 
